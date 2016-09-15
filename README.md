@@ -1,7 +1,7 @@
 # gen-array
 [![Build Status](https://travis-ci.org/QingWei-Li/gen-array.svg?branch=master)](https://travis-ci.org/QingWei-Li/gen-array)
 [![Coverage Status](https://coveralls.io/repos/github/QingWei-Li/gen-array/badge.svg?branch=master)](https://coveralls.io/github/QingWei-Li/gen-array?branch=master)
-[![npm](https://img.shields.io/npm/v/gen-array.svg?maxAge=2592000)](https://www.npmjs.com/package/gen-array)
+[![npm](https://img.shields.io/npm/v/gen-array.svg?maxAge=6000)](https://www.npmjs.com/package/gen-array)
 
 > Generate array from loop
 
@@ -23,6 +23,9 @@ gen(() => ({
 
 gen(() => Math.random() * 20, 15)
 // -> [2, 6, 18, ...], length 15
+
+gen(i => i + 1, 5)
+// -> [1, 2, 3, 4, 5]
 ```
 
 ## Syntax
