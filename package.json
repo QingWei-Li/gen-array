@@ -1,0 +1,34 @@
+{
+  "name": "gen-array",
+  "version": "0.0.0",
+  "description": "Generate array from loop",
+  "main": "index.js",
+  "scripts": {
+    "test": "xo && ava"
+  },
+  "xo": {
+    "space": true,
+    "rules": {
+      "semi": 0
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/QingWei-Li/gen-array.git"
+  },
+  "keywords": [
+    "generator",
+    "array",
+    "random"
+  ],
+  "author": "qingwei-li <cinwell.li@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/QingWei-Li/gen-array/issues"
+  },
+  "homepage": "https://github.com/QingWei-Li/gen-array#readme",
+  "devDependencies": {
+    "ava": "^0.16.0",
+    "xo": "^0.16.0"
+  }
+}
