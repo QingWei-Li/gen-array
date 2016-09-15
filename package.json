@@ -1,6 +1,6 @@
 {
   "name": "gen-array",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Generate array from loop",
   "main": "index.js",
   "scripts": {
